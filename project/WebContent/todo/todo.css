@@ -1,35 +1,104 @@
 @charset "UTF-8";
 
 table{
-	width: auto;
+	width: 100%;
 	border-collapse: collapse;
 	text-align: center;
 }
 
 td, th{
-	font-size: 10pt;
-	border: 1px solid #98bf21;
+	/*font-size: 13pt;*/
+	border: 1px solid #dadada;
 	height: 30px;
 	padding: 5px;
 }
 
 th{
-	background-color: #A7C942;
-	color: #ffffff;
 	font-family: Georgia;
 }
 
-tr td{
-	color: #000000;
-	background-color: #EAF2D3;
+table a{
+	color: #fff !important;
 }
 
-input{
-	height: 25px;
+tr td.id{
+	width: 30px;
+}
+
+textarea{
+	font-size: 14px !important;
+	height: 100px;
 	width: 200px;
+	resize: none;
+}
+select{
+	font-size: 14px;
+}
+.inlinediv{
+	display: inline-block;
 }
 
-input [type="submit"], [type="reset"], [type="button"]{
-	height: 25px;
-	width: 80px;
+.main{
+	width: 500px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.sidebar{
+	vertical-align: top;
+	width: 400px;
+}
+
+input.form-control{
+	font-size: 14px;
+}
+
+.p_tit_1{
+	background-color: #dc3545;
+	color: #ffffff;
+	font-size: 12pt !important;
+}
+.p_mem_1{
+	background-color: #f5c6cb;
+	color: #000000;
+	font-size: 11pt !important;
+}
+.p_tit_2{
+	background-color: #ffc107;
+	color: #FFFFFF;
+	font-size: 12pt !important;
+}
+.p_mem_2{
+	background-color: #ffeeba;
+	color: #000000;
+	font-size: 11pt !important;
+}
+.p_tit_3{
+	background-color: #28a745;
+	color: #FFFFFF;
+	font-size: 12pt !important;
+}
+.p_mem_3{
+	background-color: #c3e6cb;
+	color: #000000;
+	font-size: 11pt !important;
+}
+.p_tit_4{
+	background-color: #17a2b8;
+	color: #fff;
+	font-size: 12pt !important;
+}
+.p_mem_4{
+	background-color: #bee5eb;
+	color: #000000;
+	font-size: 11pt !important;
+}
+.p_tit_5{
+	background-color: #dadada;
+	color: #ffffff;
+	font-size: 12pt !important;
+}
+.p_mem_5{
+	color: #000000;
+	font-size: 11pt !important;
 }

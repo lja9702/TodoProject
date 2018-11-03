@@ -23,7 +23,8 @@
 		}
 	}
 	else if(action.equals("edit")){
-		TodoList todo = td.getDB(todolist.getTodo_id());
+		String td_id = request.getParameter("todo_id");
+		TodoList todo = td.getDB(Integer.parseInt(td_id));
 		request.setAttribute("td", todo);
 		pageContext.forward("todo_edit_form.jsp");
 	}
@@ -35,7 +36,7 @@
 			throw new Exception("DB 갱신 오류");
 	}
 	else if(action.equals("delete")){
-		if(td.deleteDB(todolist.getTodo_id())){
+		if(td.deleteDB(Integer.parseInt(request.getParameter("todo_id")))){
 			response.sendRedirect("todo_control.jsp?action=list");
 		}
 		else
