@@ -31,6 +31,7 @@
 					<td>
 						<%
 							Date date = tdlist.getDate_duedate();
+							date.setHours(23); date.setMinutes(59); date.setSeconds(59);
 							if (date != null && date.compareTo(new Date()) < 0) {
 						%>
 							<span><img src="../image/alert.png" style="width:30px;height:30px;"></span>

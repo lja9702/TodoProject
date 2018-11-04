@@ -8,7 +8,7 @@ public class TodoBean {
 	PreparedStatement pstmt = null;
 	
 	//mySQL 연결정보
-	String jdbc_driver = "com.mysql.cj.jdbc.Driver";
+	String jdbc_driver = "com.mysql.jdbc.Driver";
 	String jdbc_url = "jdbc:mysql://127.0.0.1:3306/todoDB?characterEncoding=UTF-8&serverTimezone=UTC";
 	
 	//db 연결 메서드
