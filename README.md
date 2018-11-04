@@ -28,7 +28,7 @@ $ sudo apt-get install mysql-server mysql-client
 ```
 * mySQL 서비스 시작
 ```bash
-$service mysql start
+$ service mysql start
 ```
 * 진입
 ```bash
@@ -86,19 +86,19 @@ TodoProject를 받는다.
 
 * war파일 복사
 ```bash
-$cd /var/lib/tomcat8/webapps/
+$ cd /var/lib/tomcat8/webapps/
 $ sudo cp (PATH)/TodoProject/todoProject.war ./
 ```
   * PATH는 TodoProject를 받은 경로
 
 * server.xml 복사
 ```bash
-$cd /etc/tomcat8
-$sudo cp (PATH)/TodoProject/server.xml ./
+$ cd /etc/tomcat8
+$ sudo cp (PATH)/TodoProject/server.xml ./
 ```
 * 서버 재시작
 ```bash
-$sudo service tomcat8 restart
+$ sudo service tomcat8 restart
 ```
 
 ## 6. 브라우저에 http://localhost:8080/todoProject/todo/index.jsp 입력
