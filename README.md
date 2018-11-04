@@ -19,7 +19,7 @@ $ sudo apt-get install tomcat8
 $ /usr/share/tomcat8/bin/version.sh
 ```
 * 톰캣 동작 확인
-  * 에 http://localhost:8080 입력
+  * 브라우저에 http://localhost:8080 입력
 
 ## 3. mySQL 설치
 * mySQL(v5.7)설치
