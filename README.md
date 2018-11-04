@@ -101,4 +101,4 @@ $sudo cp (PATH)/TodoProject/server.xml ./
 $sudo service tomcat8 restart
 ```
 
-## 6. 에 http://localhost:8080/todoProject/todo/index.jsp 입력
+## 6. 브라우저에 http://localhost:8080/todoProject/todo/index.jsp 입력
